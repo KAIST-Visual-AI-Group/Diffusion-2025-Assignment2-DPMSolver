@@ -94,6 +94,10 @@ x_t = \frac{\alpha_t}{\alpha_s} x_s - \sigma_t (e^{h}-1) \epsilon_\theta (x_s, s
 \end{align*}
 $$
 
+For $k \leq 2$, Taylor expansion needs additional intermediate points between $t$ and $s$. Below is an algorithm when $k=2$, called DPM-Solver-2.
+
+<img src="https://drive.google.com/uc?id=1uqAbHbVC-UoUoGlnf_hbElay0uXswt84"></img>
+
 ## What to Submit
 
 <details>
@@ -153,6 +157,3 @@ If you are interested in this topic, we encourage you to check out the further m
 - [Elucidating the Design Space of Diffusion-Based Generative Models](https://arxiv.org/abs/2206.00364)
 
 
-For $k \leq 2$, Taylor expansion needs additional intermediate points between $t$ and $s$. Below is an algorithm when $k=2$, called DPM-Solver-2.
-
-<img src="https://drive.google.com/uc?id=1uqAbHbVC-UoUoGlnf_hbElay0uXswt84"></img>
